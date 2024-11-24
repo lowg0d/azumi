@@ -1,0 +1,93 @@
+{
+    "name": "Hop Test",
+    "description": "test",
+    "profile": "TestProfile",
+    "parameters": {
+        "hover_altitude_in_m": 100.0,
+        "landing_target": {
+            "LZ1": [
+                -2,
+                5
+            ],
+            "LZ2": [
+                -2,
+                5
+            ]
+        },
+        "auto_tune_pid": true
+    },
+    "visualization": {
+        "graphs": [
+            {
+                "title": "Speed",
+                "unit": "m/s",
+                "values": [
+                    "roll"
+                ],
+                "datapoints": 200
+            },
+            {
+                "title": "Altitude",
+                "unit": "m",
+                "datapoints": 200,
+                "values": [
+                    "altitude",
+                    "mean_altitude"
+                ]
+            },
+            {
+                "title": "Orientation",
+                "unit": "°",
+                "datapoints": 100,
+                "values": [
+                    "pitch",
+                    "heading",
+                    "roll"
+                ]
+            },
+            {
+                "title": "GPS",
+                "unit": "°",
+                "gps": true,
+                "datapoints": 600,
+                "values": [
+                    "latitude",
+                    "longitude"
+                ]
+            }
+        ],
+        "labels": [
+            {
+                "name": "ALT1",
+                "unit": "m",
+                "value": "altitude",
+                "decimals": 2
+            },
+            {
+                "name": "ALT2",
+                "unit": "m",
+                "value": "mean_altitude",
+                "decimals": 2
+            },
+            {
+                "name": "LAT",
+                "unit": "\u00B0",
+                "value": "latitude",
+                "decimals": 4
+            },
+            {
+                "name": "LON",
+                "unit": "\u00B0",
+                "value": "longitude",
+                "decimals": 4
+            },
+            {
+                "name": "DTT",
+                "unit": "m",
+                "value": "distance_to_target",
+                "decimals": 2,
+                "primary": true
+            }
+        ]
+    }
+}

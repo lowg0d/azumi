@@ -1,0 +1,96 @@
+{
+    "name": "DEBUG",
+    "description": "this could be anyhing its just used as a debug tool",
+    "profile": "DebugProfile",
+    "parameters": {
+        "hover_altitude_in_m": 100.0,
+        "cruise_speed_in_m_s": 100.0,
+        "landing_target": {
+            "LZ1": [
+                -4.429688042253873,
+                -4272.2456720582
+            ]
+        }
+    },
+    "visualization": {
+        "graphs": [
+            {
+                "title": "Speed",
+                "unit": "m/s",
+                "values": [
+                    "roll"
+                ],
+                "datapoints": 200
+            },
+            {
+                "title": "Altitude",
+                "unit": "m",
+                "datapoints": 200,
+                "values": [
+                    "altitude",
+                    "mean_altitude"
+                ]
+            },
+            {
+                "title": "Orientation",
+                "unit": "°",
+                "datapoints": 100,
+                "values": [
+                    "pitch",
+                    "heading",
+                    "roll"
+                ]
+            },
+            {
+                "title": "GPS",
+                "unit": "°",
+                "gps": true,
+                "datapoints": 600,
+                "values": [
+                    "estimated_lat",
+                    "estimated_lon"
+                ]
+            }
+        ],
+        "labels": [
+            {
+                "name": "ALT1",
+                "unit": "m",
+                "value": "altitude",
+                "decimals": 2
+            },
+            {
+                "name": "ALT2",
+                "unit": "m",
+                "value": "mean_altitude",
+                "decimals": 2
+            },
+            {
+                "name": "LAT",
+                "unit": "\u00B0",
+                "value": "latitude",
+                "decimals": 4
+            },
+            {
+                "name": "LON",
+                "unit": "\u00B0",
+                "value": "longitude",
+                "decimals": 4
+            },
+            {
+                "name": "LAT",
+                "unit": "\u00B0",
+                "value": "estimated_lat",
+                "decimals": 4,
+                "primary": true
+            },
+            {
+                "name": "LON",
+                "unit": "\u00B0",
+                "value": "estimated_lon",
+                "decimals": 4,
+                "primary":true
+            }
+        ]
+    }
+}

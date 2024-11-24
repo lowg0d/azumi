@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/repeat-light.svg</file><file>icons/error.ico</file><file>icons/repeat-dark.svg</file><file>icons/chevron-down-dark.svg</file><file>icons/chevron-up-dark.svg</file></qresource>
+</RCC>

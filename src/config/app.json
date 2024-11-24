@@ -1,0 +1,13 @@
+{
+    "name": "MyApp",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "description": "A brief description of what the app does.",
+    "homepage": "https://yourwebsiteorprojectpage.com",
+    "icon_path": "./src/gui/assets/app.ico",
+    "environment": {
+        "debug_mode": true,
+        "log_to_file": true,
+        "enable_crash_reports": false
+    }
+}
