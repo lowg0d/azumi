@@ -5,6 +5,9 @@ Azumi is a **GUI application** designed to simplify and standardize mission plan
 
 This tool is in the **early stages of development**, but its vision is to streamline mission control workflows and enhance the flexibility of interacting with telemetry and custom data.
 
+![msn_selector](https://i.imgur.com/EPz9rfY.png)
+![dashboard](https://i.imgur.com/w2BbD8N.png)
+
 ---
 
 ### Key Features
